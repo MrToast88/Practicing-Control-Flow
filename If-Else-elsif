@@ -1,0 +1,26 @@
+if 1 > 0
+ print "True!"
+end
+
+if 1 > 0
+ print "True!"
+else
+    print "Nope!"
+end
+
+if 1 > 0
+ print "True!"
+elsif 1 < 0
+ puts "This is weird"
+else
+    print "Nope!"
+end
+
+ungry = false
+
+unless hungry
+  puts "I'm writing Ruby programs!"
+else
+  puts "Time to eat!"
+end
+
